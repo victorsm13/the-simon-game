@@ -1,16 +1,16 @@
-# Simon Game
+# 🎮 Simon Game
 
 A browser-based implementation of the classic **Simon Game**.
 
 ---
 
-## About the Project
+## 📖 About the Project
 
 The objective is simple: memorize the sequence of colors displayed by the game and repeat it correctly. Each successful round adds a new color to the sequence until the player makes a mistake.
 
 ---
 
-## Technologies Used
+## 🚀 Technologies Used
 
 * HTML5
 * CSS3
@@ -21,7 +21,7 @@ The objective is simple: memorize the sequence of colors displayed by the game a
 
 ---
 
-## Features
+## 🛠️ Features
 
 * Classic Simon Game mechanics
 * Randomly generated color sequences
@@ -32,13 +32,13 @@ The objective is simple: memorize the sequence of colors displayed by the game a
 
 ---
 
-## The Process
+## 📍 The Process
 
 This project was developed to strengthen my understanding of logic.
 
 ---
 
-## How to Play
+## 🎮 How to Play
 
 1. Click the **Start** button.
 2. Watch the sequence shown by the game.
@@ -49,7 +49,7 @@ This project was developed to strengthen my understanding of logic.
 
 ---
 
-## Preview/Demo
+## 🎬 Preview/Demo
 
 ![Project Demo](./assets/previewdemo.gif)
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simon Game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+
+    <div class="jsMessageContainer messageContainer hidden">
+        <div class="messageBox">
+            <p class="message">You lost!</p>
+            <button class="playAgainBtt jsPlayAgainBtt">play again <img class="playIcon" src="./assets/play-svgrepo-com.svg" alt=""></button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="gameContainer">
+
+            <h1 id="title">The Simon Game</h1>
+        
+            <div class="scoreboardWrapper">
+
+                <h2 class="scoreboardTitle">Scoreboard</h2>
+                
+                <div class="scoreboardContainer">
+                    <div class="scoreboardBox">
+                        <p class="score">Score:</p>
+                        <p class="score-value jsScoreValue">0</p>
+                    </div>
+                    <div class="scoreboardBox">
+                        <p class="high-score">High Score:</p>
+                        <p class="high-score-value jsHighScoreValue">0</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        <div class="key-group">
+            <div class="first-row">
+                <button class="gameBtt jsGreenBtt" id="green" ></button>
+                <button class="gameBtt jsRedBtt" id="red" ></button>
+            </div>
+            <div class="second-row">
+                <button class="gameBtt jsYellowBtt" id="yellow" ></button>
+                <button class="gameBtt jsBlueBtt" id="blue"></button>
+            </div>
+        </div>
+        <div class="bttnContainer">
+            <button class="button jsStartBtt" id="start">START</button>
+        </div>
+        </div>
+        
+    </div>
+    
+    <script src="./script/index.js"></script>
+</body>
+</html>
